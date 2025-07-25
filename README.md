@@ -1,21 +1,13 @@
 # MapEditor
-Made with python and pygame.
-A gui tile based map editor.
-
-Uses json files for maps.
+A gui tile based map editor made with python and pygame that uses json files for maps.
 
 # Menu
-Can load maps, create new maps, and edit settings for image paths.
+Create and load maps; edit image path settings.
 
 # Settings
-Can modify paths for loading tile and spritesheet images.
-Can also modify the default maps folder to make it easier to load maps.
+Modify paths for tile and spritesheet images; set default maps folder.
 
 # Editor
-Can place and erase tiles.
-Has different tabs for storing tile images: tiles, for 16x16 images, decorations, for everything thats not 16x16, and mobs, for mobs.
-Has layer functionality.
-Can zoom in with mouse wheel, and use mouse wheel click to move view around.
-Map file stores data in chunks, with each chunk having tiles.
-Map file stores number of layers, tile map, and mobs separately.
+Place/erase tiles with tabs for 16x16 tiles, decorations, and mobs. Supports layers, zoom (mouse wheel), and pan (mouse wheel click).
+Map files store data in chunks, tracking layers, tile maps, and mobs separately.
 
